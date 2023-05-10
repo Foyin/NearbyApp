@@ -1,0 +1,106 @@
+@import "./Colors.scss";
+@import "./Constants.scss";
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.mapboxgl-ctrl-top-left .mapboxgl-ctrl, .maplibregl-ctrl-top-left .maplibregl-ctrl {
+  min-width: 360px;
+}
+
+.crosshair-cursor canvas {
+  cursor: crosshair;
+}
+
+.App-header {
+  background-color: $base;
+  min-height: 8vh;
+  display: flex;
+  flex-direction: row;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  
+  .searchContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    width: 40%;
+    padding-left: 15px;
+    border-radius: $border-radius;
+    border: none;
+    margin: $margin;
+    background-color: $accent;
+    color: rgb(117, 117, 117);
+    .searchIcon{
+      display: flex;
+      place-content: center;
+      width: 20px;
+      height: 95%;
+      padding-right: 1%;
+      color: black;
+      cursor: pointer;
+    }
+    input{
+      width: 100%;
+      border: none;
+      background-color: $accent;
+      font-size: large;
+      border-radius: $border-radius;
+      height: 90%;
+    }
+    input:focus{
+      transition: 0.5s;
+      outline: 2px solid $accent2;
+      background-color: white;
+
+    }
+  }
+  .searchContainer:focus{
+    transition: 0.5s;
+    border: 1px solid white;
+    background-color: white;
+  }
+  .profileIconContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: $left-items-width;
+    width: 30%;
+    color: black;
+  }
+}
+
+.mainArea{
+  background-color: $base;
+  width: 100%;
+  height: 100vh;
+}
+.amplify-radio__input:checked + .amplify-radio__button::before {
+  background-color: #050659;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

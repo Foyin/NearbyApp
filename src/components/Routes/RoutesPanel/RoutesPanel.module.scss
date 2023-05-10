@@ -1,0 +1,34 @@
+@import "../../../Colors.scss";
+
+.popup {
+    z-index: 2;
+    cursor: text;
+    user-select: text;
+  }
+  
+  .popup__content {
+    padding: 0 0.5rem;
+  }
+  
+  .popup__title {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .popup__coordinates {
+    margin-top: 0.5rem;
+    font-style: italic;
+  }
+
+  .amplify-radio__input:checked + .amplify-radio__button::before {
+    --amplify-components-radio-button-checked-color: $darkest-blue;
+    color: blue;
+    background-color: green;
+    border-color: lightgreen;
+  }
+
+  [data-amplify-theme] {
+    --amplify-components-radio-button-checked-color: $darkest-blue;
+  }

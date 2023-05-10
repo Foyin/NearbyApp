@@ -1,0 +1,84 @@
+/* 
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+SPDX-License-Identifier: MIT-0
+*/
+@import "../../Colors.scss";
+@import "../../Constants.scss";
+
+.field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.field__label {
+  font-size: 1rem;
+  color: #304050;
+}
+
+.field__coordinates {
+  margin: 0.5rem 0 0.15rem 0;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.field__input {
+  margin: 0.5rem 0 0.15rem 0;
+  max-width: 10rem;
+  border-style: solid;
+  border-color: #858585;
+  padding: 0.25rem 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.field__input:disabled {
+  border-color: #d1d1d1;
+  background: #d1d1d1;
+}
+
+.error {
+  color: red;
+}
+
+.popup .btnContainer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+    button{
+      background-color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0;
+      border-radius: $border-radius;
+      margin: $margin;
+      font-weight: bold;
+      cursor: pointer;
+      border: 2px solid white;
+    }
+    button:hover{
+      border-radius: $border-radius;
+      background-color: $amz-orange;
+      margin: $margin;
+      font-weight: bold;
+      color: $darkest-blue;
+      border: 2px solid $amz-orange;
+      transition: 0.1s;
+    }
+    button:active{
+      transition: 0.1s;
+      background-color: white;
+    }
+    button:disabled,
+    button[disabled]{
+      background-color: grey;
+      border-radius: $border-radius;
+      color: white;
+      margin: $margin;
+      font-weight: bold;
+      transition: 0.25s;
+      cursor: not-allowed;
+      border: 2px solid grey;
+    }
+}

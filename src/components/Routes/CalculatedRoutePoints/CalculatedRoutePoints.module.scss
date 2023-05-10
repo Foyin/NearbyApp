@@ -1,0 +1,83 @@
+@import "../../../Colors.scss";
+@import "../../../Constants.scss";
+
+.popup__title{
+    color: $darkest-blue;
+}
+
+#departureDestination{
+    display: flex;
+    flex-direction: row;
+    @import "../../../routeGraphic.scss";
+}
+
+.travelInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px;
+    div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 20%;
+    }
+    img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 70%;
+    }
+}
+
+.distanceDuration{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: $margin;
+    vertical-align: middle;
+    strong{
+        color: $darkest-blue;
+    }
+    button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-color: white;
+        width: 15%;
+        padding: 0;
+        border-radius: $border-radius;
+        margin: $margin;
+        font-weight: bold;
+        cursor: pointer;
+        border: 2px solid white;
+        float: right;
+    }
+    button:hover{
+        border-radius: $border-radius;
+        background-color: $amz-orange;
+        margin: $margin;
+        font-weight: bold;
+        color: $darkest-blue;
+        border: 2px solid $amz-orange;
+        transition: 0.1s;
+    }
+    button:active{
+        transition: 0.1s;
+        background-color: white;
+    }
+    button:disabled,
+    button[disabled]{
+        background-color: grey;
+        border-radius: $border-radius;
+        color: white;
+        margin: $margin;
+        font-weight: bold;
+        transition: 0.25s;
+        cursor: not-allowed;
+        border: 2px solid grey;
+    }
+}
+
