@@ -3,7 +3,7 @@ A route/trip planner CRUD app frontend. Users can explore a map of an area, save
 
 Made using: TypeScript, ReactJS, SASS,  Mapbox GLJs, AWS Cognito, AWS Location service, AWS Amplify, Server Side Rendering, AWS codeCommit
 
-Note: This is just a snapshot of the latest development environment. Production code in private repo
+Note: The code just a recent snapshot of the development environment. Production code in private repo on AWS codecommit
 
 [Live Demo](https://development.d1kzsfeau1uesc.amplifyapp.com/)
 
