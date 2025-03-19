@@ -30,50 +30,50 @@ The most simple feature is being able to check the route of two points on the ma
    ![1st Step](src/images/tutorial/4.png)
 
 2. Or use the navigation button to jump to your location. Make sure to enable geolocation on your device for this to work.
-   ![2nd Step](../../images/tutorial/getLocation.png)
+   ![2nd Step](src/images/tutorial/getLocation.png)
 
 3. Click the icon to add location to the places tab.
-   ![3rd Step](../../images/tutorial/5.png)
+   ![3rd Step](src/images/tutorial/5.png)
 
 4. The places tab opens when a place is added. Click the places button to open and close the panel.
-   ![4th Step](../../images/tutorial/6.png)
+   ![4th Step](src/images/tutorial/6.png)
 
 5. Search for other nearby locations.
-   ![5th Step](../../images/tutorial/7.png)
+   ![5th Step](src/images/tutorial/7.png)
 
 6. Click on the added location to select it, then click the icon to add a nearby location to the selected location.
-   ![6th Step](../../images/tutorial/8.png)
-   ![7th Step](../../images/tutorial/9.png)
+   ![6th Step](src/images/tutorial/8.png)
+   ![7th Step](src/images/tutorial/9.png)
 
 ## Adding Routes And Nearby Routes
 
 1. Click the highlighted icon to select the departure position.
-   ![8th Step](../../images/tutorial/10.png)
+   ![8th Step](src/images/tutorial/10.png)
 
 2. Click the highlighted icon to select the destination position.
-   ![9th Step](../../images/tutorial/11.png)
+   ![9th Step](src/images/tutorial/11.png)
 
 3. After selecting the destination position, the route panel opens. Select options and click the button to calculate the route.
-   ![10th Step](../../images/tutorial/12.png)
+   ![10th Step](src/images/tutorial/12.png)
 
 4. After clicking calculate, a route summary pops up.
-   ![11th Step](../../images/tutorial/13.png)
+   ![11th Step](src/images/tutorial/13.png)
 
 5. Click the highlighted button to add the route to the selected location.
-   ![12th Step](../../images/tutorial/14.png)
-   ![13th Step](../../images/tutorial/15.png)
-   ![14th Step](../../images/tutorial/16.png)
+   ![12th Step](src/images/tutorial/14.png)
+   ![13th Step](src/images/tutorial/15.png)
+   ![14th Step](src/images/tutorial/16.png)
 
 6. Click the highlighted button to add the route to another list of routes only.
-   ![15th Step](../../images/tutorial/17.png)
-   ![16th Step](../../images/tutorial/18.png)
-   ![17th Step](../../images/tutorial/19.png)
+   ![15th Step](src/images/tutorial/17.png)
+   ![16th Step](src/images/tutorial/18.png)
+   ![17th Step](src/images/tutorial/19.png)
 
 7. Click the reset button to start a new route calculation.
-   ![18th Step](../../images/tutorial/20.png)
-   ![19th Step](../../images/tutorial/21.png)
-   ![20th Step](../../images/tutorial/22.png)
+   ![18th Step](src/images/tutorial/20.png)
+   ![19th Step](src/images/tutorial/21.png)
+   ![20th Step](src/images/tutorial/22.png)
 
 8. A list with multiple items could look like this.
-   ![21st Step](../../images/tutorial/23.png)
-   ![22nd Step](../../images/tutorial/24.png)
+   ![21st Step](src/images/tutorial/23.png)
+   ![22nd Step](src/images/tutorial/24.png)
