@@ -22,7 +22,7 @@ You can save a list of routes or a list of places. You can then select a place f
 
 The most simple feature is being able to check the route of two points on the map. You can do this when you click on the route button. When the route panel is open, you can click two points of the map to find their distance information.
 
-![Route Image](../../images/tutorial/routeImg.png)
+![Route Image](src/images/tutorial/routeImg.png)
 
 ## Adding Places And Nearby Places
 
