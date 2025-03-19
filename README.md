@@ -27,7 +27,7 @@ The most simple feature is being able to check the route of two points on the ma
 ## Adding Places And Nearby Places
 
 1. Search for a location with the search bar.
-   ![1st Step](../../images/tutorial/4.png)
+   ![1st Step](src/images/tutorial/4.png)
 
 2. Or use the navigation button to jump to your location. Make sure to enable geolocation on your device for this to work.
    ![2nd Step](../../images/tutorial/getLocation.png)
