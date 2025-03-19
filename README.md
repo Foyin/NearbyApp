@@ -9,3 +9,71 @@ Note: This is just a snapshot of the latest development environment. Production 
 
 ![](https://github.com/Foyin/NearbyApp/assets/15314851/a975a04c-0596-4185-9f7c-32c82761e68e)
 
+
+# How To Use
+
+This is a route planner. It can be used for various applications, but the core idea is that it is for when you need to keep a record of all the significant places near you and how far they are so you can easily plan trips to multiple places at once before starting a trip. For example, if you want to move to a new home but you want to keep a record of all the close by amenities, like grocery stores, gyms, malls, or restaurants, before going for a viewing. With this web app, you can search for all the places close to a given location and record them. This information can be used to quickly narrow down your list of prospective homes so you don't have to waste time going for viewings at homes that don't have the desired amenities. A more simple example could be for moving companies to plan or companies that deliver goods to multiple locations to plan trips beforehand. You can also check the general distance between places.
+
+You can save a list of routes or a list of places. You can then select a place from the list and add nearby places to it. You can also add multiple nearby routes to each place.
+
+---
+
+## Find General Route
+
+The most simple feature is being able to check the route of two points on the map. You can do this when you click on the route button. When the route panel is open, you can click two points of the map to find their distance information.
+
+![Route Image](../../images/tutorial/routeImg.png)
+
+## Adding Places And Nearby Places
+
+1. Search for a location with the search bar.
+   ![1st Step](../../images/tutorial/4.png)
+
+2. Or use the navigation button to jump to your location. Make sure to enable geolocation on your device for this to work.
+   ![2nd Step](../../images/tutorial/getLocation.png)
+
+3. Click the icon to add location to the places tab.
+   ![3rd Step](../../images/tutorial/5.png)
+
+4. The places tab opens when a place is added. Click the places button to open and close the panel.
+   ![4th Step](../../images/tutorial/6.png)
+
+5. Search for other nearby locations.
+   ![5th Step](../../images/tutorial/7.png)
+
+6. Click on the added location to select it, then click the icon to add a nearby location to the selected location.
+   ![6th Step](../../images/tutorial/8.png)
+   ![7th Step](../../images/tutorial/9.png)
+
+## Adding Routes And Nearby Routes
+
+1. Click the highlighted icon to select the departure position.
+   ![8th Step](../../images/tutorial/10.png)
+
+2. Click the highlighted icon to select the destination position.
+   ![9th Step](../../images/tutorial/11.png)
+
+3. After selecting the destination position, the route panel opens. Select options and click the button to calculate the route.
+   ![10th Step](../../images/tutorial/12.png)
+
+4. After clicking calculate, a route summary pops up.
+   ![11th Step](../../images/tutorial/13.png)
+
+5. Click the highlighted button to add the route to the selected location.
+   ![12th Step](../../images/tutorial/14.png)
+   ![13th Step](../../images/tutorial/15.png)
+   ![14th Step](../../images/tutorial/16.png)
+
+6. Click the highlighted button to add the route to another list of routes only.
+   ![15th Step](../../images/tutorial/17.png)
+   ![16th Step](../../images/tutorial/18.png)
+   ![17th Step](../../images/tutorial/19.png)
+
+7. Click the reset button to start a new route calculation.
+   ![18th Step](../../images/tutorial/20.png)
+   ![19th Step](../../images/tutorial/21.png)
+   ![20th Step](../../images/tutorial/22.png)
+
+8. A list with multiple items could look like this.
+   ![21st Step](../../images/tutorial/23.png)
+   ![22nd Step](../../images/tutorial/24.png)
