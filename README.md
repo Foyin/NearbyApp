@@ -27,6 +27,7 @@ Yes, technically you could do this with Google Maps — but having tried that my
 Tech Stack:
 
 TypeScript
+
 React
 
 AWS Location Service
