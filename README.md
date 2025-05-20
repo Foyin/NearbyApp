@@ -1,7 +1,7 @@
 # NearbyApp
 A route/trip planner CRUD app frontend. Users can explore a map of an area, save locations of interest, save a group nearby locations to saved locations, plot a route on the map between two locations and save it, and save a group of nearby routes that are close to a specific saved location
 
-The Problem:
+The Problem:  
 Imagine you've lived downtown in a city for years, and everything important to you is close by — the gym, grocery store, office, kids' school, etc.
 Then you get a fantastic job offer… in a new city you don’t know well.
 How do you quickly find a neighborhood that’s just as convenient?  
