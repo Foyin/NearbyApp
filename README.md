@@ -12,18 +12,29 @@ How do you plan this efficiently without jumping between multiple tabs?
 
 The Solution:
 To solve this, I built The Nearby App — a route and trip planner designed to:
+
 🔍 Find and log places of interest
+
 🗺️ Group locations by proximity
+
 📍 Calculate and save routes
+
 🗂️ Organize plans around a central location
+
 Yes, technically you could do this with Google Maps — but having tried that myself during a move, I found the experience clunky and not built for this specific use case.
 
 Tech Stack:
+
 TypeScript
+
 React
+
 AWS Location Service
+
 SASS
+
 AWS Amplify (for hosting)
+
 Mapbox GLJs
 
 Note: The code just a recent snapshot of the development environment. Production code in private repo on AWS codecommit
