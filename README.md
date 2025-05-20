@@ -1,7 +1,30 @@
 # NearbyApp
 A route/trip planner CRUD app frontend. Users can explore a map of an area, save locations of interest, save a group nearby locations to saved locations, plot a route on the map between two locations and save it, and save a group of nearby routes that are close to a specific saved location
 
-Made using: TypeScript, ReactJS, SASS,  Mapbox GLJs, AWS Cognito, AWS Location service, AWS Amplify, Server Side Rendering, AWS codeCommit
+The Problem:
+Imagine you've lived downtown in a city for years, and everything important to you is close by — the gym, grocery store, office, kids' school, etc.
+Then you get a fantastic job offer… in a new city you don’t know well.
+How do you quickly find a neighborhood that’s just as convenient?
+Or...
+You're planning a trip to a new city.
+You want to visit all the best historical sites and restaurants — ideally close to each other.
+How do you plan this efficiently without jumping between multiple tabs?
+
+The Solution:
+To solve this, I built The Nearby App — a route and trip planner designed to:
+🔍 Find and log places of interest
+🗺️ Group locations by proximity
+📍 Calculate and save routes
+🗂️ Organize plans around a central location
+Yes, technically you could do this with Google Maps — but having tried that myself during a move, I found the experience clunky and not built for this specific use case.
+
+Tech Stack:
+TypeScript
+React
+AWS Location Service
+SASS
+AWS Amplify (for hosting)
+Mapbox GLJs
 
 Note: The code just a recent snapshot of the development environment. Production code in private repo on AWS codecommit
 
