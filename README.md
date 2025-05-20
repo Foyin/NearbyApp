@@ -23,16 +23,11 @@ Yes, technically you could do this with Google Maps — but having tried that my
 
 Tech Stack:
 
-TypeScript
-
-React
-
-AWS Location Service
-
-SASS
-
-AWS Amplify (for hosting)
-
+TypeScript  
+React  
+AWS Location Service  
+SASS  
+AWS Amplify (for hosting)  
 Mapbox GLJs
 
 Note: The code just a recent snapshot of the development environment. Production code in private repo on AWS codecommit
