@@ -17,7 +17,6 @@ To solve this, I built The Nearby App — a route and trip planner designed to:
 📍 Calculate and save routes  
 🗂️ Organize plans around a central location  
 
-Yes, technically you could do this with Google Maps — but having tried that myself during a move, I found the experience clunky and not built for this specific use case.
 
 
 Tech Stack:
